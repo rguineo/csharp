@@ -1,0 +1,15 @@
+C:\Users\Duotek\source\repos\rem2024\rem2024\bin\Debug\rem2024.exe.config
+C:\Users\Duotek\source\repos\rem2024\rem2024\bin\Debug\rem2024.exe
+C:\Users\Duotek\source\repos\rem2024\rem2024\bin\Debug\rem2024.pdb
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.csproj.AssemblyReference.cache
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.Form1.resources
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.Properties.Resources.resources
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.csproj.GenerateResource.cache
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.csproj.CoreCompileInputs.cache
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.exe
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.pdb
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.menuPrincipal.resources
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.afpForm.resources
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.Cargos.resources
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.Empleados.resources
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.PrevisionForm.resources
