@@ -1,35 +1,80 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace rem2024
 {
-    public partial class Empleados : Form
+    internal class Empleados
     {
-        public Empleados()
+        private int id;
+        private int employeesCode;
+        private string employeesDNI;
+        private string employeesFirstName;
+        private string employeeslastName;
+        private DateTime employeesBirthday;
+        private string employeesEmail;
+        private string employeesPhone;
+        private string employeesAddress;
+        private int id_positions;
+        private int id_afp;
+        private int id_forecast;
+        private string afpName;
+        private string forecastName;
+        private string positionName;
+        
+        public Empleados() { }
+
+        public Empleados(int id, int employeesCode, string employeesDNI, string employeesFirstName, string employeeslastName, DateTime employeesBirthday, string employeesEmail, string employeesPhone, string employeesAddress, int id_positions, int id_afp, int id_forecast, string afpName, string forecastName, string positionName)
         {
-            InitializeComponent();
+            this.id = id;
+            this.employeesCode = employeesCode;
+            this.employeesDNI = employeesDNI;
+            this.employeesFirstName = employeesFirstName;
+            this.employeeslastName = employeeslastName;
+            this.employeesBirthday = employeesBirthday;
+            this.employeesEmail = employeesEmail;
+            this.employeesPhone = employeesPhone;
+            this.employeesAddress = employeesAddress;
+            this.id_positions = id_positions;
+            this.id_afp = id_afp;
+            this.id_forecast = id_forecast;
+            this.afpName = afpName;
+            this.forecastName = forecastName;
+            this.positionName = positionName;
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        public static List<EmpleadoClass> MostrarTodosEmpleados()
         {
+            List<EmpleadoClass> ListEmployees = new List<EmpleadoClass>();
 
-        }
+            using (SqlConnection conexion = DBGeneral.ObtenerConexion())
+            {
+                SqlCommand consulta = new SqlCommand("SELECT * FROM Empleados", conexion);
+                SqlDataReader registro = consulta.ExecuteReader();
 
-        private void label12_Click(object sender, EventArgs e)
-        {
+                while (registro.Read())
+                {
+                    EmpleadoClass employee = new EmpleadoClass();
+                    employee.employeeCode = registro.GetInt32(0);
+                    employee.employeeDNI = registro.GetString(1);
+                    employee.employeeFirstName = registro.GetString(2);
+                    employee.employeeLastName = registro.GetString(3);
+                    employee.employeeBirthday = registro.GetDateTime(4);
+                    employee.employeeAddress = registro.GetString(5);
+                    employee.employeeEmail = registro.GetString(6);
+                    employee.afpName = registro.GetString(7);
+                    employee.forecastName = registro.GetString(8);
+                    employee.positionName = registro.GetString(9);
 
-        }
+                    ListEmployees.Add(employee);
+                }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
+                conexion.Close();
+            }
+            return ListEmployees;
         }
     }
 }

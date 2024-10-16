@@ -47,7 +47,7 @@ namespace rem2024
 
         private void empleadoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Empleados formMenuEmpleados = new Empleados();
+            EmpleadosForm formMenuEmpleados = new EmpleadosForm();
             formMenuEmpleados.ShowDialog();
         }
     }

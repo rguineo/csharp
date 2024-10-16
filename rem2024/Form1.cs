@@ -39,24 +39,27 @@ namespace rem2024
                 MessageBox.Show("Usuario o contraseña estan vacios", "Credenciales", MessageBoxButtons.OK, MessageBoxIcon.Information);
             } else
             {
-                SqlConnection conexion = new SqlConnection("Data Source=DESKTOP-VEPREGL;Initial Catalog=remunerations;Integrated Security=True");
-                conexion.Open();
-                SqlCommand consulta = new SqlCommand("SELECT * FROM users WHERE userName = @nombre AND passName=@clave", conexion);
-                consulta.Parameters.AddWithValue("nombre", username);
-                consulta.Parameters.AddWithValue("clave", passuser);
-                SqlDataReader registo = consulta.ExecuteReader();
 
-                if (registo.Read())
+                using (SqlConnection conexion = DBGeneral.ObtenerConexion())
                 {
-                    menuPrincipal formMenu = new menuPrincipal();
-                    this.Hide();
-                    formMenu.Show();
+                    SqlCommand consulta = new SqlCommand("SELECT * FROM users WHERE userName = @nombre AND passName=@clave", conexion);
+                    consulta.Parameters.AddWithValue("nombre", username);
+                    consulta.Parameters.AddWithValue("clave", passuser);
+                    SqlDataReader registo = consulta.ExecuteReader();
+
+                    if (registo.Read())
+                    {
+                        menuPrincipal formMenu = new menuPrincipal();
+                        this.Hide();
+                        formMenu.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario o contraseña incorrecto", "Credenciales Erroneas", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    conexion.Close();
+
                 }
-                else
-                {
-                    MessageBox.Show("Usuario o contraseña incorrecto", "Credenciales Erroneas", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                conexion.Close();
             }
         }
     }

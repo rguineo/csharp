@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="remunerationsDataSet5" targetNamespace="http://tempuri.org/remunerationsDataSet5.xsd" xmlns:mstns="http://tempuri.org/remunerationsDataSet5.xsd" xmlns="http://tempuri.org/remunerationsDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="remunerationsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="remunerationsConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.rem2024.Properties.Settings.GlobalReference.Default.remunerationsConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="empleadosTableAdapter" GeneratorDataComponentClassName="empleadosTableAdapter" Name="empleados" UserDataComponentName="empleadosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="remunerationsConnectionString (Settings)" DbObjectName="remunerations.dbo.empleados" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT employeeCode, employeeDNI, employeeFistName, employeeLastName, employeeBirthday, employeeAddress, employeePhone, namePosition, afpName, forecastName FROM dbo.empleados</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="employeeCode" DataSetColumn="employeeCode" />
+              <Mapping SourceColumn="employeeDNI" DataSetColumn="employeeDNI" />
+              <Mapping SourceColumn="employeeFistName" DataSetColumn="employeeFistName" />
+              <Mapping SourceColumn="employeeLastName" DataSetColumn="employeeLastName" />
+              <Mapping SourceColumn="employeeBirthday" DataSetColumn="employeeBirthday" />
+              <Mapping SourceColumn="employeeAddress" DataSetColumn="employeeAddress" />
+              <Mapping SourceColumn="employeePhone" DataSetColumn="employeePhone" />
+              <Mapping SourceColumn="namePosition" DataSetColumn="namePosition" />
+              <Mapping SourceColumn="afpName" DataSetColumn="afpName" />
+              <Mapping SourceColumn="forecastName" DataSetColumn="forecastName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="remunerationsDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="remunerationsDataSet5" msprop:Generator_DataSetName="remunerationsDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="empleados" msprop:Generator_RowEvHandlerName="empleadosRowChangeEventHandler" msprop:Generator_RowDeletedName="empleadosRowDeleted" msprop:Generator_RowDeletingName="empleadosRowDeleting" msprop:Generator_RowEvArgName="empleadosRowChangeEvent" msprop:Generator_TablePropName="empleados" msprop:Generator_RowChangedName="empleadosRowChanged" msprop:Generator_RowChangingName="empleadosRowChanging" msprop:Generator_TableClassName="empleadosDataTable" msprop:Generator_RowClassName="empleadosRow" msprop:Generator_TableVarName="tableempleados" msprop:Generator_UserTableName="empleados">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="employeeCode" msprop:Generator_ColumnPropNameInRow="employeeCode" msprop:Generator_ColumnPropNameInTable="employeeCodeColumn" msprop:Generator_ColumnVarNameInTable="columnemployeeCode" msprop:Generator_UserColumnName="employeeCode" type="xs:int" minOccurs="0" />
+              <xs:element name="employeeDNI" msprop:Generator_ColumnPropNameInRow="employeeDNI" msprop:Generator_ColumnPropNameInTable="employeeDNIColumn" msprop:Generator_ColumnVarNameInTable="columnemployeeDNI" msprop:Generator_UserColumnName="employeeDNI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="employeeFistName" msprop:Generator_ColumnPropNameInRow="employeeFistName" msprop:Generator_ColumnPropNameInTable="employeeFistNameColumn" msprop:Generator_ColumnVarNameInTable="columnemployeeFistName" msprop:Generator_UserColumnName="employeeFistName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="employeeLastName" msprop:Generator_ColumnPropNameInRow="employeeLastName" msprop:Generator_ColumnPropNameInTable="employeeLastNameColumn" msprop:Generator_ColumnVarNameInTable="columnemployeeLastName" msprop:Generator_UserColumnName="employeeLastName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="employeeBirthday" msprop:Generator_ColumnPropNameInRow="employeeBirthday" msprop:Generator_ColumnPropNameInTable="employeeBirthdayColumn" msprop:Generator_ColumnVarNameInTable="columnemployeeBirthday" msprop:Generator_UserColumnName="employeeBirthday" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="employeeAddress" msprop:Generator_ColumnPropNameInRow="employeeAddress" msprop:Generator_ColumnPropNameInTable="employeeAddressColumn" msprop:Generator_ColumnVarNameInTable="columnemployeeAddress" msprop:Generator_UserColumnName="employeeAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="employeePhone" msprop:Generator_ColumnPropNameInRow="employeePhone" msprop:Generator_ColumnPropNameInTable="employeePhoneColumn" msprop:Generator_ColumnVarNameInTable="columnemployeePhone" msprop:Generator_UserColumnName="employeePhone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="namePosition" msprop:Generator_ColumnPropNameInRow="namePosition" msprop:Generator_ColumnPropNameInTable="namePositionColumn" msprop:Generator_ColumnVarNameInTable="columnnamePosition" msprop:Generator_UserColumnName="namePosition" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="afpName" msprop:Generator_ColumnPropNameInRow="afpName" msprop:Generator_ColumnPropNameInTable="afpNameColumn" msprop:Generator_ColumnVarNameInTable="columnafpName" msprop:Generator_UserColumnName="afpName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="forecastName" msprop:Generator_ColumnPropNameInRow="forecastName" msprop:Generator_ColumnPropNameInTable="forecastNameColumn" msprop:Generator_ColumnVarNameInTable="columnforecastName" msprop:Generator_UserColumnName="forecastName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

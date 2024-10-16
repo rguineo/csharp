@@ -11,5 +11,5 @@ C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.pdb
 C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.menuPrincipal.resources
 C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.afpForm.resources
 C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.Cargos.resources
-C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.Empleados.resources
 C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.PrevisionForm.resources
+C:\Users\Duotek\source\repos\rem2024\rem2024\obj\Debug\rem2024.EmpleadosForm.resources

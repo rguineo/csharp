@@ -61,11 +61,13 @@
       <DependentUpon>Cargos.cs</DependentUpon>
     </Compile>
     <Compile Include="DBGeneral.cs" />
-    <Compile Include="Empleados.cs">
+    <Compile Include="EmpleadoClass.cs" />
+    <Compile Include="Empleados.cs" />
+    <Compile Include="EmpleadosForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Empleados.Designer.cs">
-      <DependentUpon>Empleados.cs</DependentUpon>
+    <Compile Include="EmpleadosForm.Designer.cs">
+      <DependentUpon>EmpleadosForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -89,14 +91,44 @@
     <Compile Include="Prevision.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="remunerationsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>remunerationsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="remunerationsDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>remunerationsDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="remunerationsDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>remunerationsDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="remunerationsDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>remunerationsDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="remunerationsDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>remunerationsDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="remunerationsDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>remunerationsDataSet5.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="afpForm.resx">
       <DependentUpon>afpForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cargos.resx">
       <DependentUpon>Cargos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Empleados.resx">
-      <DependentUpon>Empleados.cs</DependentUpon>
+    <EmbeddedResource Include="EmpleadosForm.resx">
+      <DependentUpon>EmpleadosForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -125,9 +157,78 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="remunerationsDataSet.xsc">
+      <DependentUpon>remunerationsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="remunerationsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>remunerationsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="remunerationsDataSet.xss">
+      <DependentUpon>remunerationsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="remunerationsDataSet1.xsc">
+      <DependentUpon>remunerationsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="remunerationsDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>remunerationsDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="remunerationsDataSet1.xss">
+      <DependentUpon>remunerationsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="remunerationsDataSet2.xsc">
+      <DependentUpon>remunerationsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="remunerationsDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>remunerationsDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="remunerationsDataSet2.xss">
+      <DependentUpon>remunerationsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="remunerationsDataSet3.xsc">
+      <DependentUpon>remunerationsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="remunerationsDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>remunerationsDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="remunerationsDataSet3.xss">
+      <DependentUpon>remunerationsDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="remunerationsDataSet4.xsc">
+      <DependentUpon>remunerationsDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="remunerationsDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>remunerationsDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="remunerationsDataSet4.xss">
+      <DependentUpon>remunerationsDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="remunerationsDataSet5.xsc">
+      <DependentUpon>remunerationsDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="remunerationsDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>remunerationsDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="remunerationsDataSet5.xss">
+      <DependentUpon>remunerationsDataSet5.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

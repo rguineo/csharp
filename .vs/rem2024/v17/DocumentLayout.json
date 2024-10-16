@@ -3,24 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Duotek\\source\\repos\\rem2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|c:\\users\\duotek\\source\\repos\\rem2024\\rem2024\\previsionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\previsionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|c:\\users\\duotek\\source\\repos\\rem2024\\rem2024\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|c:\\users\\duotek\\source\\repos\\rem2024\\rem2024\\previsionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|c:\\users\\duotek\\source\\repos\\rem2024\\rem2024\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|c:\\users\\duotek\\source\\repos\\rem2024\\rem2024\\afp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\afp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\previsionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\previsionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|c:\\users\\duotek\\source\\repos\\rem2024\\rem2024\\afpform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\afpform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\previsionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\previsionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\afpform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\afpform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|c:\\users\\duotek\\source\\repos\\rem2024\\rem2024\\empleadoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\empleadoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|c:\\users\\duotek\\source\\repos\\rem2024\\rem2024\\prevision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\previsionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\previsionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\prevision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\prevision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{185E36B1-9ABC-41C7-8B89-8C243910392F}|rem2024\\rem2024.csproj|solutionrelative:rem2024\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +62,171 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "afpForm.cs",
-              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\afpForm.cs",
-              "RelativeDocumentMoniker": "rem2024\\afpForm.cs",
-              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\afpForm.cs",
-              "RelativeToolTip": "rem2024\\afpForm.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAiwEAAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\Form1.cs",
+              "RelativeDocumentMoniker": "rem2024\\Form1.cs",
+              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\Form1.cs",
+              "RelativeToolTip": "rem2024\\Form1.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwDIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:06:46.147Z",
+              "WhenOpened": "2024-10-16T22:49:05.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "afpForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\afpForm.cs",
-              "RelativeDocumentMoniker": "rem2024\\afpForm.cs",
-              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\afpForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "rem2024\\afpForm.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\Form1.cs",
+              "RelativeDocumentMoniker": "rem2024\\Form1.cs",
+              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "rem2024\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T00:14:23.184Z",
+              "WhenOpened": "2024-10-16T22:48:52.914Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Afp.cs",
+              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\Afp.cs",
+              "RelativeDocumentMoniker": "rem2024\\Afp.cs",
+              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\Afp.cs",
+              "RelativeToolTip": "rem2024\\Afp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T22:48:41.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmpleadosForm.cs",
+              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\EmpleadosForm.cs",
+              "RelativeDocumentMoniker": "rem2024\\EmpleadosForm.cs",
+              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\EmpleadosForm.cs",
+              "RelativeToolTip": "rem2024\\EmpleadosForm.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAMwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T04:38:13.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PrevisionForm.cs",
               "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\PrevisionForm.cs",
               "RelativeDocumentMoniker": "rem2024\\PrevisionForm.cs",
               "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\PrevisionForm.cs",
               "RelativeToolTip": "rem2024\\PrevisionForm.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAswE0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAvwEAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T00:14:06.479Z",
+              "WhenOpened": "2024-10-16T04:37:42.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Empleados.cs",
+              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\Empleados.cs",
+              "RelativeDocumentMoniker": "rem2024\\Empleados.cs",
+              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\Empleados.cs",
+              "RelativeToolTip": "rem2024\\Empleados.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAWwDYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T04:19:30.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Prevision.cs",
               "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\Prevision.cs",
               "RelativeDocumentMoniker": "rem2024\\Prevision.cs",
               "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\Prevision.cs",
               "RelativeToolTip": "rem2024\\Prevision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T23:40:45.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T04:18:03.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "EmpleadosForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\EmpleadosForm.cs",
+              "RelativeDocumentMoniker": "rem2024\\EmpleadosForm.cs",
+              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\EmpleadosForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "rem2024\\EmpleadosForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:44:56.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "menuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\menuPrincipal.cs",
+              "RelativeDocumentMoniker": "rem2024\\menuPrincipal.cs",
+              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\menuPrincipal.cs",
+              "RelativeToolTip": "rem2024\\menuPrincipal.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:42:42.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "menuPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\menuPrincipal.cs",
+              "RelativeDocumentMoniker": "rem2024\\menuPrincipal.cs",
+              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\menuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "rem2024\\menuPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:42:38.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PrevisionForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\PrevisionForm.cs",
               "RelativeDocumentMoniker": "rem2024\\PrevisionForm.cs",
               "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\PrevisionForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "rem2024\\PrevisionForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T22:27:40.979Z",
+              "WhenOpened": "2024-10-16T03:37:47.955Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PrevisionClass.cs",
+              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\PrevisionClass.cs",
+              "RelativeDocumentMoniker": "rem2024\\PrevisionClass.cs",
+              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\PrevisionClass.cs",
+              "RelativeToolTip": "rem2024\\PrevisionClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:27:22.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmpleadoClass.cs",
+              "DocumentMoniker": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\EmpleadoClass.cs",
+              "RelativeDocumentMoniker": "rem2024\\EmpleadoClass.cs",
+              "ToolTip": "C:\\Users\\Duotek\\source\\repos\\rem2024\\rem2024\\EmpleadoClass.cs",
+              "RelativeToolTip": "rem2024\\EmpleadoClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAADHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:07:25.121Z",
+              "EditorCaption": ""
             }
           ]
         }
